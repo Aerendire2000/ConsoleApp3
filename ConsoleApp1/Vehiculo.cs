@@ -39,7 +39,7 @@ namespace ConsoleApp1
                 return -1;
             }
         }
-
+        //
         public void EncenderMotor()
         {
             if (!motorEncendido)
