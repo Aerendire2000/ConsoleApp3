@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3119EDB0-84D6-46E2-87BE-B495EB62B07B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp3</RootNamespace>
+    <AssemblyName>ConsoleApp3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramManager.cs" />
+    <Compile Include="CLASE1\Clase1.cs" />
+    <Compile Include="CLASE1\Persona.cs" />
+    <Compile Include="CLASE2\Clase2.cs" />
+    <Compile Include="CLASE3\Clase3.cs" />
+    <Compile Include="CLASE4\Clase4.cs" />
+    <Compile Include="CLASE4\Automovil.cs" />
+    <Compile Include="CLASE4\Usuario.cs" />
+    <Compile Include="CLASE5\Clase5.cs" />
+    <Compile Include="CLASE5\Almacenero.cs" />
+    <Compile Include="CLASE5\Cajero.cs" />
+    <Compile Include="CLASE5\Color.cs" />
+    <Compile Include="CLASE5\Empleado.cs" />
+    <Compile Include="CLASE5\Producto.cs" />
+    <Compile Include="CLASE5\Punto.cs" />
+    <Compile Include="CLASE5\TransferenciaBancaria.cs" />
+    <Compile Include="CLASE5\Usuario.cs" />
+    <Compile Include="CLASE6\Clase6.cs" />
+    <Compile Include="CLASE6\AlmacenajeProducto.cs" />
+    <Compile Include="CLASE6\Codigo.cs" />
+    <Compile Include="CLASE6\EntregaDeProducto.cs" />
+    <Compile Include="CLASE6\GuardadoProducto.cs" />
+    <Compile Include="CLASE6\PagoProducto.cs" />
+    <Compile Include="CLASE6\Pair.cs" />
+    <Compile Include="CLASE6\PedidoOnline.cs" />
+    <Compile Include="CLASE6\Producto.cs" />
+    <Compile Include="CLASE6\ProductoElectronico.cs" />
+    <Compile Include="CLASE6\Usuario.cs" />
+    <Compile Include="CLASE7\Clase7.cs" />
+    <Compile Include="CLASE7\Codigo.cs" />
+    <Compile Include="CLASE7\EntradaDatosConsola.cs" />
+    <Compile Include="CLASE7\ICalculoIGV.cs" />
+    <Compile Include="CLASE7\IEntradaDatos.cs" />
+    <Compile Include="CLASE7\IMetodoPago.cs" />
+    <Compile Include="CLASE7\IMetodoPagoFactory.cs" />
+    <Compile Include="CLASE7\IPago.cs" />
+    <Compile Include="CLASE7\MetodoPagoFactory.cs" />
+    <Compile Include="CLASE7\PagoCripto.cs" />
+    <Compile Include="CLASE7\PagoTarjeta.cs" />
+    <Compile Include="CLASE7\PagoYape.cs" />
+    <Compile Include="CLASE7\Producto.cs" />
+    <Compile Include="CLASE7\ProductoElectronico.cs" />
+    <Compile Include="CLASE7\ProductoOrganico.cs" />
+    <Compile Include="CLASE7\Utilitaria.cs" />
+    <Compile Include="CLASE8\Clase8.cs" />
+    <Compile Include="CLASE8\CalculadoraIGV.cs" />
+    <Compile Include="CLASE8\CalculadoraIGV_Chile.cs" />
+    <Compile Include="CLASE8\CalculadoraIGV_USA.cs" />
+    <Compile Include="CLASE8\Empleado.cs" />
+    <Compile Include="CLASE8\ICalculoIGV.cs" />
+    <Compile Include="CLASE8\IPago.cs" />
+    <Compile Include="CLASE8\IReporter.cs" />
+    <Compile Include="CLASE8\Producto.cs" />
+    <Compile Include="CLASE8\ProductoElectronico.cs" />
+    <Compile Include="CLASE8\ProductoOrganico.cs" />
+    <Compile Include="CLASE8\SolidEjemplos.cs" />
+    <Compile Include="CLASE9\Clase9.cs" />
+    <Compile Include="CLASE9\ICRUD.cs" />
+    <Compile Include="CLASE9\IRepository.cs" />
+    <Compile Include="CLASE9\Producto.cs" />
+    <Compile Include="CLASE9\ProductoRepository.cs" />
+    <Compile Include="CLASE9\Usuario.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ControlDeInventario.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\CalculadoraIGV.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\CalculadoraIGVExonerado.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\Categoria.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\EntradaDatosConsola.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\Historial.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ICalculoIGV.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\IEntradaDatos.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\IMovimientoStock.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\IProductoFactory.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\IReportable.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\IReporteInventario.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\IRepository.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\InventarioException.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\MenuInventario.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\Movimiento.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\Producto.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ProductoAccesorio.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ProductoConGarantia.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ProductoConsumible.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ProductoFactory.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ProductoRepository.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ReporteConsola.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\ServicioInventario.cs" />
+    <Compile Include="PROYECTOS\INVENTARIO_CLASE9\Ubicacion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
