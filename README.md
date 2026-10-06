@@ -1,5 +1,4 @@
 # ConsoleApp3 — Desarrollo Web Fullstack C# + IA
-## Cómo ejecutarlo
 ### Opción 1 — Desde el Release (sin Visual Studio)
 1. Ve a la sección **Releases** del repositorio.
 2. Descarga `ConsoleApp3-v1.0.0.zip`.
